@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Tiefsee",
+      "dim": "80 × 100 cm",
+      "med": "Strukturpaste, Acryl, Metallpigment auf Leinwand",
+      "buy": "2.900 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Gletscherbruch",
+      "dim": "70 × 90 cm",
+      "med": "Strukturpaste, Acryl, Silberpigment auf Leinwand",
+      "buy": "2.400 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Wendepunkt",
+      "dim": "100 × 140 cm",
+      "med": "Strukturpaste, Acryl auf Leinwand",
+      "buy": "4.600 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Kupferader",
+      "dim": "60 × 80 cm",
+      "med": "Strukturpaste, Metallpigment auf Leinwand",
+      "buy": "2.100 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ufer",
+      "dim": "70 × 90 cm",
+      "med": "Strukturpaste, Acryl, Naturfaser auf Leinwand",
+      "buy": "2.300 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Puls",
+      "dim": "120 × 160 cm",
+      "med": "Strukturpaste, Acryl auf Leinwand",
+      "buy": "5.900 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Skyline im Nebel",
+      "dim": "90 × 130 cm",
+      "med": "Acryl, Metallpigment auf Leinwand",
+      "buy": "3.700 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Kreuzung",
+      "dim": "100 × 140 cm",
+      "med": "Strukturpaste, Acryl auf Leinwand, gerahmt",
+      "buy": "4.900 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Dünenlicht",
+      "dim": "60 × 90 cm",
+      "med": "Strukturpaste, Metallpigment auf Leinwand",
+      "buy": "2.500 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Verzierung",
+      "dim": "100 × 130 cm",
+      "med": "Acryl, Metallpigment, Tuschezeichnung auf Leinwand",
+      "buy": "4.400 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Lagune",
+      "dim": "60 × 120 cm",
+      "med": "Strukturpaste, Acryl, Silberpigment auf Leinwand",
+      "buy": "3.100 €",
+      "status": "verfügbar",
+      "image": "/uploads/werk-11.jpg"
+    }
+  ]
+}
