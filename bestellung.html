@@ -267,8 +267,16 @@ Hinweis: Bitte Zahlungseingang bei PayPal manuell mit dieser Bestellung abgleich
     window.location.href = `mailto:bestellung@artbyayfer.de?subject=${subject}&body=${body}`;
 
     setTimeout(function(){
-      window.location.href = paypalLink(total);
-    }, 800);
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17829287336/4T6WCMbi0-IcEKir1bVC',
+        'value': total,
+        'currency': 'EUR',
+        'transaction_id': String(Date.now())
+    });
+  }
+  window.location.href = paypalLink(total);
+}, 800);
   });
 }
 
