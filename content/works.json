@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Tiefsee",
+      "alt": "Abstraktes Gemälde „Tiefsee“ von Ayfer – dunkle Blautöne mit Strukturpaste und Metallpigment-Akzenten auf Leinwand",
       "dim": "80 × 100 cm",
       "med": "Strukturpaste, Acryl, Metallpigment auf Leinwand",
       "buy": "2.900 €",
@@ -12,6 +13,7 @@
     {
       "id": 2,
       "title": "Gletscherbruch",
+      "alt": "Abstraktes Gemälde „Gletscherbruch“ von Ayfer – eisige Strukturpaste-Oberfläche mit Silberpigment-Glanz",
       "dim": "70 × 90 cm",
       "med": "Strukturpaste, Acryl, Silberpigment auf Leinwand",
       "buy": "2.400 €",
@@ -21,6 +23,7 @@
     {
       "id": 3,
       "title": "Wendepunkt",
+      "alt": "Abstraktes Gemälde „Wendepunkt“ von Ayfer – großformatige Strukturpaste-Komposition in warmen Erdtönen",
       "dim": "100 × 140 cm",
       "med": "Strukturpaste, Acryl auf Leinwand",
       "buy": "4.600 €",
@@ -30,6 +33,7 @@
     {
       "id": 4,
       "title": "Kupferader",
+      "alt": "Abstraktes Gemälde „Kupferader“ von Ayfer – rostige Strukturpaste-Textur mit kupferfarbenem Metallpigment",
       "dim": "60 × 80 cm",
       "med": "Strukturpaste, Metallpigment auf Leinwand",
       "buy": "2.100 €",
@@ -39,6 +43,7 @@
     {
       "id": 5,
       "title": "Ufer",
+      "alt": "Abstraktes Gemälde „Ufer“ von Ayfer – sandfarbene Strukturpaste-Oberfläche mit eingearbeiteter Naturfaser",
       "dim": "70 × 90 cm",
       "med": "Strukturpaste, Acryl, Naturfaser auf Leinwand",
       "buy": "2.300 €",
@@ -48,6 +53,7 @@
     {
       "id": 6,
       "title": "Puls",
+      "alt": "Abstraktes Gemälde „Puls“ von Ayfer – kräftige rote Strukturpaste-Malerei auf großformatiger Leinwand",
       "dim": "120 × 160 cm",
       "med": "Strukturpaste, Acryl auf Leinwand",
       "buy": "5.900 €",
@@ -57,6 +63,7 @@
     {
       "id": 7,
       "title": "Skyline im Nebel",
+      "alt": "Abstraktes Gemälde „Skyline im Nebel“ von Ayfer – urbane Silhouette in Acryl mit Metallpigment-Lichtern",
       "dim": "90 × 130 cm",
       "med": "Acryl, Metallpigment auf Leinwand",
       "buy": "3.700 €",
@@ -66,6 +73,7 @@
     {
       "id": 8,
       "title": "Kreuzung",
+      "alt": "Abstraktes Gemälde „Kreuzung“ von Ayfer – schwarz-weiße Strukturpaste-Komposition, gerahmt",
       "dim": "100 × 140 cm",
       "med": "Strukturpaste, Acryl auf Leinwand, gerahmt",
       "buy": "4.900 €",
@@ -75,6 +83,7 @@
     {
       "id": 9,
       "title": "Dünenlicht",
+      "alt": "Abstraktes Gemälde „Dünenlicht“ von Ayfer – warme Strukturpaste-Landschaft mit Metallpigment-Glanz",
       "dim": "60 × 90 cm",
       "med": "Strukturpaste, Metallpigment auf Leinwand",
       "buy": "2.500 €",
@@ -84,6 +93,7 @@
     {
       "id": 10,
       "title": "Verzierung",
+      "alt": "Abstraktes Gemälde „Verzierung“ von Ayfer – filigrane Tuschezeichnung auf Acryl mit Metallpigment-Akzenten",
       "dim": "100 × 130 cm",
       "med": "Acryl, Metallpigment, Tuschezeichnung auf Leinwand",
       "buy": "4.400 €",
@@ -93,14 +103,17 @@
     {
       "id": 11,
       "title": "Lagune",
+      "alt": "Abstraktes Gemälde „Lagune“ von Ayfer – türkisfarbene Strukturpaste mit Silberpigment-Schimmer",
       "dim": "60 × 120 cm",
       "med": "Strukturpaste, Acryl, Silberpigment auf Leinwand",
       "buy": "3.100 €",
       "status": "verfügbar",
       "image": "/uploads/werk-11.jpg"
-    },{
+    },
+    {
       "id": 12,
       "title": "Kalkhorizont",
+      "alt": "Abstraktes Gemälde „Kalkhorizont“ von Ayfer – beige Strukturpaste-Oberfläche mit feiner goldener Horizontlinie",
       "image": "/uploads/werk-12.jpg",
       "dim": "100 × 70 cm",
       "med": "Strukturpaste, Acryl, Metallpigment auf Leinwand",
@@ -110,7 +123,8 @@
     {
       "id": 13,
       "title": "Patina",
-      "image": "/uploads/werk-13.jpg", 
+      "alt": "Abstraktes Gemälde „Patina“ von Ayfer – salbeigrüne Strukturpaste mit goldenen Metallpigment-Akzenten, im Entstehungsprozess",
+      "image": "/uploads/werk-13.jpg",
       "video": "/uploads/werk-13.mp4",
       "dim": "90 × 60 cm",
       "med": "Strukturpaste, Acryl, Metallpigment auf Leinwand",
