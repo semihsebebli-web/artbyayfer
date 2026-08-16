@@ -384,7 +384,7 @@ function renderGallery(){
     const isUnavailable = w.status !== 'verfügbar';
     const statusClass = isSold ? 'sold' : (w.status === 'reserviert' ? 'reserved' : '');
     piece.innerHTML = `
-      <div class="img-wrap"><img src="${w.image}" alt="${w.title} — abstraktes Werk von Ayfer" loading="lazy"></div>
+<div class="img-wrap">${w.video ? `<video src="${w.video}" poster="${w.image}" controls muted playsinline loop style="width:100%;height:100%;object-fit:cover;display:block;"></video>` : `<img src="${w.image}" alt="${w.title} — abstraktes Werk von Ayfer" loading="lazy">`}</div>
       <div class="piece-meta">
         <div class="row">
           <span class="title">${w.title}</span>
