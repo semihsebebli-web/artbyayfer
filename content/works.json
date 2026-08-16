@@ -98,6 +98,23 @@
       "buy": "3.100 €",
       "status": "verfügbar",
       "image": "/uploads/werk-11.jpg"
+    },{
+      "id": 12,
+      "title": "Kalkhorizont",
+      "image": "/uploads/werk-12.jpg",
+      "dim": "100 × 70 cm",
+      "med": "Strukturpaste, Acryl, Metallpigment auf Leinwand",
+      "buy": "2.600 €",
+      "status": "verfügbar"
+    },
+    {
+      "id": 13,
+      "title": "Patina",
+      "image": "/uploads/werk-13.jpg",
+      "dim": "90 × 60 cm",
+      "med": "Strukturpaste, Acryl, Metallpigment auf Leinwand",
+      "buy": "2.900 €",
+      "status": "verfügbar"
     }
   ]
 }
