@@ -110,7 +110,8 @@
     {
       "id": 13,
       "title": "Patina",
-      "image": "/uploads/werk-13.jpg",
+      "image": "/uploads/werk-13.jpg", 
+      "video": "/uploads/werk-13.mp4",
       "dim": "90 × 60 cm",
       "med": "Strukturpaste, Acryl, Metallpigment auf Leinwand",
       "buy": "2.900 €",
