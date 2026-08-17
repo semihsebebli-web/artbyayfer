@@ -396,13 +396,44 @@
 
 <script>
 /* ---------- Gallery data (real artworks, EUR) ---------- */
-let works = []; // wird dynamisch aus content/works.json geladen
+let works = [];
+let showOnlyFavorites = false;
+const FAV_KEY = 'artbyayfer_favorites';
+
+function getFavorites(){
+  try { return JSON.parse(localStorage.getItem(FAV_KEY)) || []; }
+  catch(e){ return []; }
+}
+function toggleFavorite(id){
+  let favs = getFavorites();
+  favs = favs.includes(id) ? favs.filter(f => f !== id) : [...favs, id];
+  localStorage.setItem(FAV_KEY, JSON.stringify(favs));
+  updateFavCount();
+  return favs.includes(id);
+}
+function updateFavCount(){
+  const el = document.getElementById('favCount');
+  if (el) el.textContent = getFavorites().length;
+}
+function handleFavClick(e, id){
+  e.preventDefault();
+  e.stopPropagation();
+  const active = toggleFavorite(id);
+  e.currentTarget.classList.toggle('active', active);
+  if (showOnlyFavorites) renderGallery();
+}
 
 const grid = document.getElementById('galleryGrid');
 
 function renderGallery(){
   grid.innerHTML = '';
-  works.forEach((w)=>{
+  const favs = getFavorites();
+  const list = showOnlyFavorites ? works.filter(w => favs.includes(w.id)) : works;
+  if (showOnlyFavorites && list.length === 0){
+    grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;color:var(--text-dim);padding:40px 0;">Noch keine Werke gemerkt.</p>';
+    return;
+  }
+  list.forEach((w)=>{
     const piece = document.createElement('div');
     piece.className = 'piece';
     const isSold = w.status === 'verkauft';
