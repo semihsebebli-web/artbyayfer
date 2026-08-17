@@ -440,7 +440,12 @@ function renderGallery(){
     const isUnavailable = w.status !== 'verfügbar';
     const statusClass = isSold ? 'sold' : (w.status === 'reserviert' ? 'reserved' : '');
     piece.innerHTML = `
-<div class="img-wrap">${w.video ? `<video src="${w.video}" poster="${w.image}" controls muted playsinline loop style="width:100%;height:100%;object-fit:cover;display:block;"></video>` : `<img src="${w.image}" alt="${w.alt || (w.title + ' — abstraktes Werk von Ayfer')}" loading="lazy">`}</div>
+<div class="img-wrap">
+  <button class="fav-btn ${favs.includes(w.id)?'active':''}" onclick="handleFavClick(event, ${w.id})" aria-label="Merken">
+    <svg viewBox="0 0 24 24"><path d="M12 21s-6.7-4.35-9.33-8.28C1.1 10.68 1.6 7.4 4.14 5.6 6.2 4.14 8.9 4.6 10.5 6.5L12 8.2l1.5-1.7c1.6-1.9 4.3-2.36 6.36-.9 2.54 1.8 3.04 5.08 1.47 7.12C18.7 16.65 12 21 12 21z"/></svg>
+  </button>
+  ${w.video ? `<video src="${w.video}" poster="${w.image}" controls muted playsinline loop style="width:100%;height:100%;object-fit:cover;display:block;"></video>` : `<img src="${w.image}" alt="${w.alt || (w.title + ' — abstraktes Werk von Ayfer')}" loading="lazy">`}
+</div>
       <div class="piece-meta">
         <div class="row">
           <span class="title">${w.title}</span>
@@ -462,7 +467,16 @@ function renderGallery(){
 
 fetch('content/works.json')
   .then(r => r.json())
-  .then(data => { works = data.items || []; renderGallery(); })
+  .then(data => {
+    works = data.items || [];
+    renderGallery();
+    updateFavCount();
+    document.getElementById('favToggle').addEventListener('click', function(){
+      showOnlyFavorites = !showOnlyFavorites;
+      this.classList.toggle('active', showOnlyFavorites);
+      renderGallery();
+    });
+  })
   .catch(err => { console.error('Werke konnten nicht geladen werden:', err); });
 
 
